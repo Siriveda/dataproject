@@ -74,6 +74,6 @@ def draw_box_plot():
     # Save image and return fig (don't change this part)
     fig.savefig('box_plot.png')
     return fig
-draw_line_plot
-draw_bar_plot
-draw_box_plot
+draw_line_plot()
+draw_bar_plot()
+draw_box_plot()
